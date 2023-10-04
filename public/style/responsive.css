@@ -1,0 +1,423 @@
+@media (min-width: 1300px) {}
+
+@media (max-width: 1600px) {
+    .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .walletHistory .dataTables_head {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .walletHistory .dataTables_head {
+        width: 79%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .section {
+        overflow: hidden;
+    }
+    .walletHistory .dataTables_head {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .banner-area .banner-text .banner-title h1 {
+        font-size: 42px;
+    }
+    .banner-area {
+        padding-top: 230px;
+        padding-bottom: 230px;
+    }
+    .section {
+        padding: 100px 0;
+    }
+    .main-menu ul li a .cp-user-icon {
+        margin-right: 0;
+    }
+    .cp-user-sidebar.active {
+        display: block;
+    }
+    .walletHistory .dataTables_head {
+        width: 100%;
+    }
+    .trade_tableList {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    /* .trades-section table.dataTable thead tr th {
+        text-align: center !important;
+    } */
+    .trade_tableList_two {
+        display: flex;
+        justify-content: space-between;
+        gap: 26px;
+        width: 170%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .find-app-area .single-app {
+        padding: 60px 30px 60px 30px;
+    }
+    .commentTitle h2 {
+        width: 400px;
+    }
+    .walletTableScroll {
+        overflow-x: scroll;
+        max-width: 95vw;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .custompage-title {
+        padding-top: 180px;
+    }
+}
+
+
+/* Portrait tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .add_comment_area .form-group label {
+        min-height: 59px;
+    }
+}
+
+
+/* Portrait tablets and small desktops */
+
+@media (max-width: 991px) {
+    .header-area {
+        /* display: none; */
+    }
+    .about-us-area .about-left {
+        position: inherit;
+        transform: translateY(0px);
+        width: 100%;
+    }
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+    .single-table .table tbody tr td {
+        padding: 3px 5px;
+    }
+    .footer-area .footer-bottom {
+        padding: 20px 0;
+    }
+    .banner-area .banner-right-img {
+        position: inherit;
+        width: 100%;
+        transform: translateY(0%);
+    }
+    .banner-area {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .integration-area .integration-info {
+        margin-top: 0;
+    }
+    .awesome-area .awesome-info {
+        margin-top: 0;
+    }
+    .SliderNews {
+        height: 150px;
+    }
+    .header-area {
+        /* display: none; */
+    }
+    .about-us-area .about-left {
+        position: inherit;
+        transform: translateY(0px);
+        width: 100%;
+    }
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+    .single-table .table tbody tr td {
+        padding: 3px 5px;
+    }
+    .footer-area .footer-bottom {
+        padding: 20px 0;
+    }
+    .banner-area .banner-right-img {
+        position: inherit;
+        width: 100%;
+        transform: translateY(0%);
+    }
+    .banner-area {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .integration-area .integration-info {
+        margin-top: 0;
+    }
+    .awesome-area .awesome-info {
+        margin-top: 0;
+    }
+    .SliderNews {
+        height: 150px;
+    }
+    .live-chat {
+        width: 80%;
+    }
+}
+
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 768px) {
+    .banner-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .client-area {
+        padding: 50px 0 100px;
+    }
+    .choose-info .btn.btn-link {
+        font-size: 0.9rem;
+    }
+    .choose-info .card .card-body {
+        font-size: 14px;
+    }
+    section.faq-area {
+        padding: 100px 0;
+    }
+    .contact-page-area {
+        padding: 100px 0;
+    }
+    .footer-area {
+        padding-top: 70px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .titleText {
+        font-size: 20px;
+    }
+    .sectionTitle {
+        font-size: 24px;
+    }
+    .commentTitle h2 {
+        width: 500px;
+    }
+    .SliderBlog {
+        height: auto;
+    }
+    .blogSliderText h3 {
+        font-size: 26px;
+    }
+    .SliderNews {
+        height: auto;
+    }
+    .user-form {
+        padding: 20px 20px;
+        min-height: 0px;
+    }
+    .image-chatBox {
+        width: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+    .login_reg_box {
+        display: block;
+    }
+    .login_bg_new {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .faq-wallet-section {
+        margin-top: 20px;
+    }
+    .bank-table-header {
+        flex-wrap: wrap;
+    }
+    .deposit-conatiner {
+        padding: 0px;
+    }
+    .section-wrapper {
+        padding: 15px;
+    }
+    .appy-form {
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .radio-item {
+        display: block;
+    }
+    .ico-tokenCreate {
+        margin: 15px 15px 30px 15px;
+        /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+        padding: 30px 10px;
+        border-radius: 5px;
+    }
+    .userActive:before {
+        height: 20px;
+        width: 20px;
+        background: #3ee73e;
+        content: "";
+        top: 55px;
+        right: 0;
+        position: absolute;
+        border-radius: 50%;
+    }
+    .userDeactive:before {
+        height: 20px;
+        width: 20px;
+        background: #808080;
+        content: "";
+        top: 50px;
+        right: 0;
+        position: absolute;
+        border-radius: 50%;
+    }
+    .tradeUserActive:after {
+        height: 10px;
+        width: 10px;
+    }
+    .tradeUserDeactive:after {
+        height: 10px;
+        width: 10px;
+    }
+    .active-link ul {
+        display: flex;
+        margin-right: 30px;
+    }
+    .cp-user-setting-card-inner-preference {
+        min-height: auto;
+    }
+    .pagination-wrapper {
+        text-align: center !important;
+        /* width: 90%; */
+    }
+    .about-text h2 {
+        font-size: 25px;
+    }
+    #DataTables_Table_0 tr td {
+        white-space: nowrap;
+    }
+    #DataTables_Table_2 tr td {
+        white-space: nowrap;
+    }
+    .footer-area .footer-bottom-wrap {
+        padding: 10px 0;
+    }
+    .cp-user-buy-coin-content-area table.dataTable thead tr th {
+        padding: 3px 5px;
+    }
+    .cp-user-buy-coin-content-area table.dataTable tbody tr td {
+        padding: 3px 5px !important;
+    }
+    .loadingSpinner {
+        width: 30px;
+        height: 30px;
+    }
+    .trade_tableList {
+        width: 80%;
+    }
+    .trade_tableList_two {
+        width: 130%;
+    }
+    .font_size {
+        font-size: 16px !important;
+    }
+    .live-chat {
+        width: 100%;
+    }
+    .Verify_card {
+        font-size: 34px;
+    }
+}
+
+
+/* Landscape phones and smaller */
+
+@media (max-width: 480px) {
+    .trade_tableList_two {
+        width: 110%;
+    }
+    .trade_tableList {
+        width: 80%;
+    }
+    .primary-btn {
+        margin-bottom: 10px;
+    }
+    .product-area .single-tab .nav-tabs li a {
+        padding: 10px 30px;
+    }
+    .notification {
+        width: 80% !important;
+    }
+    .user_img {
+        width: 44px;
+        height: 44px;
+    }
+    .chat_btn {
+        padding: 5px 8px !important;
+        font-size: 12px !important;
+    }
+    .steepNumber {
+        height: 26px;
+    }
+    .steepBar {
+        height: 2px;
+    }
+    .adFromPrice h4 {
+        font-size: 16px;
+    }
+    .addPostNextButton div button {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .product-area .single-tab .nav-tabs li a {
+        padding: 10px 20px;
+    }
+    br {
+        display: none;
+    }
+    .section-title h2 {
+        font-size: 24px;
+    }
+    .integration-area .integration-info h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .awesome-area .awesome-info h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .banner-area .banner-text .banner-title h1 {
+        font-size: 32px;
+    }
+    .addPostNextButton div button {
+        padding: 0px 16px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner-area .banner-text .banner-title h1 {
+        font-size: 28px;
+    }
+    .single-table .table tbody tr td {
+        font-size: 16px;
+    }
+    .footer-area .footer-bottom .copyright-area p {
+        font-size: 16px;
+    }
+}
